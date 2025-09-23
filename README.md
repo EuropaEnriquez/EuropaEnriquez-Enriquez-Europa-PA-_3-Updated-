@@ -82,3 +82,10 @@ cars.loc[cars['Model'].isin(models), ['Model','cyl','gear']]
 
 checks whether each value in the `Model` column is one of the names in the list using `.isin(models)`. It then filters the Data frame to include only those rows. Finally, it selects just three columns—`Model`, `cyl`, and `gear`. This displays both the number of cylinders and the gear type for each of the three specified car models.
 After all of this, save this problem as a .py file
+
+
+____________________________________
+
+**UPDATE**
+
+For problem 1 & 2, after executing all of the syntaxes, save the file problems as .py
